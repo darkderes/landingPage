@@ -3,12 +3,11 @@
 
 body {
     margin: 0%;
-    /* height: 100%; */
 }
 
 
 header {
-    background: url(../img/banner.jpg);
+    background: url(../img/banner.jpg)no-repeat;
     height: 150px;
     overflow: hidden;
 }
@@ -45,7 +44,7 @@ footer {
 
 main {
     position: absolute;
-    top: 170px;
+    top: 200px;
     bottom: 40px;
     width: 100%;
     overflow-y: auto;
