@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&display=swap');
+
+body {
+    margin: 0%;
+    /* height: 100%; */
+}
+
+
+header {
+    background: url(../img/banner.jpg);
+    height: 150px;
+    overflow: hidden;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 40px;
+    text-shadow: 3px 5px 8px #785;
+}
+
+h4 {
+    color: #fff;
+    font-family: "New Amsterdam", sans-serif;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #041157;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+main {
+    position: absolute;
+    top: 170px;
+    bottom: 40px;
+    width: 100%;
+    overflow-y: auto;
+    text-align: center;
+    /* Para centrar el contenido del main */
+}
+
+section {
+    display: inline-block;
+    text-align: left;
+    max-width: 800px;
+}
+
+
+p {
+    color: #fff;
+}
+
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.product-details {
+    max-width: 600px;
+}
+
+.product-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-description {
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #333;
+}
